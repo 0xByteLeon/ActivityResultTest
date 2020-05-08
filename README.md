@@ -1,6 +1,5 @@
-# ActivityResultTest
-简化StartActivityForResult
-使用回调 OR LiveData 简化StartActivityForResult调用
+# Simple StartActivityForResult
+使用Callback or LiveData 简化StartActivityForResult调用
 
 调用`startForResult(intent: Intent, onResult: ((ActivityResult<T>) -> Unit))`启动目标Activity，此方法启动Activity采用回调函数接受返回结果，
 可多次重复接受，但要注意接受结果界面的生命周期问题
